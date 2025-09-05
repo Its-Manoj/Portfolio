@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ManojKumar Pinniboyina — Portfolio</title>
+
+  <!-- Fonts + Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="light">
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Manoj Kumar Pinniboyina</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="#home" data-link>Home</a></li>
+          <li><a href="#about" data-link>About</a></li>
+          <li><a href="#projects" data-link>Projects</a></li>
+          <li><a href="#github" data-link>GitHub</a></li>
+          <li><a href="#contact" data-link>Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle theme" class="icon-btn" title="Toggle theme">
+        <i class="fa-regular fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero active">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Java Full-Stack Developer and AI Enthusiast</p>
+        <h1>Hello, I’m <span class="gradient-text">Manoj Kumar </span></h1>
+        <p class="lead">
+        A passionate Java Full-Stack developer focused on building scalable, efficient, and user-friendly applications.
+        I specialize in Java, Servlets, JDBC, and modern web technologies. Currently seeking opportunities to contribute as a Java Developer.
+        </p>
+        <div class="cta-row">
+          <a href="#projects" class="btn primary" data-link><i class="fa-solid fa-code"></i> View my work</a>
+          <a href="#contact" class="btn ghost" data-link><i class="fa-regular fa-envelope"></i> Contact</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-card">
+        <img src="assets/Manoj_Kumar.jpg" alt="Manoj Kumar portrait" class="profile-img"/>
+        <h2>About Me</h2>
+        <p>
+          As a fresher, I’m driven by curiosity & hands-on learning and I'm excited enter ther the Professional world.
+          I’ve built projects like an Employee Management System and a Weather Forecast app 
+          with API integration and clean UI patterns.
+        </p>
+        <div class="chip-row">
+          <span class="chip">Java</span>
+          <span class="chip">OOP</span>
+          <span class="chip">Java Collections</span>
+          <span class="chip">JDBC</span>
+          <span class="chip">Servlets</span>
+          <span class="chip">JSP</span>
+          <span class="chip">Spring Boot</span>
+          <span class="chip">MySQL/SQL</span>
+          <span class="chip">HTML/CSS(Bootstrap)/JS</span>
+          <span class="chip">React.js</span>
+          <span class="chip">Python</span>
+           <span class="chip">Supervised\Unsupervised</span>
+        </div>
+        <a class="btn small" href="assets/Manoj_Kumar.pdf" target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-lines"></i>Download Resume</a>
+      </div>
+
+      <div class="stack">
+        <div class="card">
+          <h3><i class="fa-solid fa-user-graduate"></i>Education</h3>
+          <ul class="clean-list">
+            <li><strong>B.Tech in AI & ML</strong> — Andhra Engineering College • CGPA 7.86</li>
+            <li><strong>Intermediate (Maths)</strong> — DR. BSR Junior College • GPA 9.5</li>
+            <li><strong>Secondary School</strong> — Vikas High School, Sangam • GPA 9.7</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h3>
+          <ul class="icon-list">
+            <li><i class="fa-brands fa-java"></i> Programming: Java, OOP, Multithreading, Python</li>
+            <li><i class="fa-solid fa-database"></i>Database: SQL, MySQL, SQLite, Oracle</li>
+            <li><i class="fa-solid fa-globe"></i>Web: HTML, CSS, JavaScript, Bootstrap and jsp</li>
+            <li><i class="fa-solid fa-rectangle-list"></i>Frameworks: JDBC, Servlets, Spring Boot</li>
+            <li><i class="fa-solid fa-brain"></i> Others: DSA, Problem Solving, SoftSkills</li>
+            <li><i class="fa-solid fa-list"></i>Java Tools, SpringBoot Tools,VsCode, Eclipse, Jupiter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="grid cards">
+        <article class="card project">
+  <div class="project-thumb">
+    <img src="assets/P_img1.png" alt="Eye Ball Cursor Movement screenshot"/>
+  </div>
+  <div class="project-body">
+    <h3>Eye Ball Cursor Movement (Academic)</h3>
+    <p>Hands-free navigation using eye tracking with OpenCV and pyautogui.</p>
+    <p class="meta">Python • OpenCV • Eye Aspect Ratio</p>
+  </div>
+</article>
+
+<article class="card project">
+  <div class="project-thumb">
+    <img src="assets/P_img2.png" alt="Employee Management System screenshot"/>
+  </div>
+  <div class="project-body">
+    <h3>Employee Management System</h3>
+    <p>CRUD with Java Servlets and JDBC on MySQL. Clean UI, modular DAO.</p>
+    <p class="meta">Java • Servlets • JDBC • MySQL</p>
+  </div>
+</article>
+
+<article class="card project">
+  <div class="project-thumb">
+    <img src="assets/P_img3.png" alt="Weather Forecast App screenshot"/>
+  </div>
+  <div class="project-body">
+    <h3>Weather Forecast App</h3>
+    <p>Real-time weather via OpenWeather API. Location detection and dynamic UI.</p>
+    <p class="meta">Java • JavaFX • GSON</p>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub -->
+  <section id="github" class="section">
+    <div class="container">
+      <h2 class="section-title"> GitHub Open Source Projects</h2>
+
+      <div class="grid cards">
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> Personal Portfolio</h3>
+          <p>Responsive site built with HTML, CSS, and JS.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/Personal_Portfolio.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> BankAccountSimulation</h3>
+          <p>Deposits, withdrawals, and timestamped history.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/BankAccountSimulation.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> StudentRecord<br>ManagementSystem</h3>
+          <p>CLI app to manage student records.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/StudentRecordManagementSystem.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i>LibraryManagement<br>System</h3>
+          <p>Terminal interface for viewing and issuing books.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/LibraryManagementSystem.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> ToDo App</h3>
+          <p>Swing-based task manager.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/ToDoApp-using-Java.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> Notes App</h3>
+          <p>Simple notes with file I/O.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/NotesApp.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> Basic Calculator</h3>
+          <p>Arithmetic operations in Java.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/Basic-Calculator.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> Facebook Login Page</h3>
+          <p>Front-end clone of the login page.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/Facebook-LoginPage.git">View on GitHub</a>
+        </article>
+
+        <article class="card repo">
+          <h3><i class="fa-brands fa-github"></i> Sample ID Card</h3>
+          <p>College-style ID card with HTML/CSS.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://github.com/Its-Manoj/ID-Card.git">View on GitHub</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <ul class="icon-list">
+            <li><i class="fa-regular fa-envelope"></i> <a href="mailto:manojkumarpinniboyina@gmail.com">manojkumarpinniboyina@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+919392908223">+91 93929 08223</a></li>
+            <li><i class="fa-brands fa-linkedin"></i> <a target="_blank" rel="noopener" href="https://linkedin.com/in/manoj-kumar-pinniboina-933207291">LinkedIn</a></li>
+            <li><i class="fa-brands fa-github"></i> <a target="_blank" rel="noopener" href="https://github.com/Its-Manoj">GitHub</a></li>
+          </ul>
+        </div>
+
+        <form class="card contact-form" action="https://formspree.io/f/mdklpynr" method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="_replyto" type="email" placeholder="name@example.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+          </div>
+          <button class="btn primary" type="submit"><i class="fa-regular fa-paper-plane"></i> Send</button>
+          <p class="form-note">Or email me directly.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year"></span> Manoj Kumar. All rights reserved.</p></div>
+  </footer>
+</body>
+</html>
